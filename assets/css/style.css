@@ -1,0 +1,58 @@
+/* Universal style */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header style starts */
+.header-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.highscore-wrapper,
+.time {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+.highscore-wrapper {
+    padding-left: 20px;
+}
+
+.highscore-btn {
+    border: none;
+    background: none;
+    color: royalblue;
+}
+/* Header style ends */
+
+/* Main style starts*/
+.content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 150px 0;
+}
+
+p {
+    padding: 0 50px;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.start-btn {
+    background: royalblue;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+}
+/* Main style ends*/

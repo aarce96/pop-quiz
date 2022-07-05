@@ -9,17 +9,27 @@
 </head>
 <body>
     <header>
-        <a href="#">View high scores</a>
-        <p>Time</p>
+        <div class="header-wrapper">
+            <div class="highscore-wrapper">
+                <button class="highscore-btn">View high scores</button>
+            </div>
+            <div class="time">
+                <p>Time: 0</p>
+            </div>
+        </div>
     </header>
     <main>
-        <h1>Coding Quiz Challenge</h1>
-        <p>
-            Try to answer the following code-related questions within the time limit.
-            Keep in mind that incorrect answers will penalize your score/time 
-            by ten seconds!
-        </p>
-        <button>Start Quiz</button>
+        <div class="content-wrapper">
+            <h1>Coding Quiz Challenge</h1>
+            <br />
+            <p>
+                Try to answer the following code-related questions within the time limit.
+                Keep in mind that incorrect answers will penalize your score/time 
+             by ten seconds!
+            </p>
+            <br />
+            <button class="start-btn">Start Quiz</button>
+        </div>
     </main>
     <script src="./assets/js/script.js"></script>
 </body>

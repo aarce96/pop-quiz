@@ -29,6 +29,11 @@
     background: none;
     color: royalblue;
 }
+
+/* pseudo-class */
+.highscore-btn:hover {
+    cursor: pointer;
+}
 /* Header style ends */
 
 /* Main style starts*/
@@ -55,4 +60,38 @@ p {
     border-radius: 15px;
     border: none;
 }
+
+/* pseudo-class */
+.start-btn:hover {
+    cursor: pointer;
+    background: skyblue;
+}
 /* Main style ends*/
+
+/* Question styling starts */
+.question {
+    padding-top: 150px;
+    text-align: center;
+}
+
+.question h2 {
+    margin-bottom: 20px;
+}
+
+.question li {
+    padding: 10px;
+}
+
+.question button {
+    background: royalblue;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+}
+
+.question button:hover {
+    cursor: pointer;
+    background: skyblue;
+}
+/* Question styling ends */
